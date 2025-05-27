@@ -63,7 +63,7 @@ jobs:
       - name: Run build script
         run: |
           cd whisper-unity
-          sh build_cpp.sh ../whisper-cpp/ visionos_metal
+          sh build_cpp.sh ../whisper-cpp/ mac_metal
           cd ${{ github.workspace }}/whisper-cpp/build/
           mv libwhisper.dylib libwhisper_visionos_metal.dylib
   

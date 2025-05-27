@@ -1,4 +1,4 @@
-name: Build C++
+name: Build C++ (VisionOS)
 on:
   workflow_dispatch:
     inputs:
